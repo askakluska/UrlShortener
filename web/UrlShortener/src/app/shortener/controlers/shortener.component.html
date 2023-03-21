@@ -1,0 +1,23 @@
+<div class="container mt-4">
+    <div class="row" *ngIf="showInfo">
+        <div class="alert" [ngClass]="{'alert-success': alertClass === 'success', 'alert-warning': alertClass === 'warning', 'alert-danger': alertClass === 'danger'}" role="alert">
+            {{infoMessage}}
+          </div>
+    </div>
+    <div class="row">
+        <label class="col-2">Please insert a link: </label>
+        <div class="d-flex col-6">
+            <input class="col-3 form-control" type="text" [(ngModel)]="fullLink" />
+            <button class="mx-3 col-3 btn btn-primary" (click)="submit()">Make it shorter</button>
+
+        </div>
+    </div>
+    <div class="row mt-2" *ngIf="shortLink">
+        <label class="col-2">Shorter Link: </label>
+        <div class="d-flex col-6">
+            <input class="col-3 form-control" type="text" [(ngModel)]="shortLink" />
+            <button class="mx-3 col-1 btn btn-secondary" (click)="copy()"><i class="fa fa-clipboard"
+                    aria-hidden="true"></i></button>
+        </div>
+    </div>
+</div>

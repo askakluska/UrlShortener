@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "106a538d-0182-4168-ae49-577d28e86e83": {
+      "ProjectGuid": "106a538d-0182-4168-ae49-577d28e86e83",
+      "DisplayName": "UrlShortener.API",
+      "ColorIndex": 0
+    },
+    "f2a361da-da99-4779-9d8a-30cbabf7b487": {
+      "ProjectGuid": "f2a361da-da99-4779-9d8a-30cbabf7b487",
+      "DisplayName": "UrlShortener.Domain",
+      "ColorIndex": 1
+    },
+    "d90e08fb-a9fb-4906-af8b-65903329ae6a": {
+      "ProjectGuid": "d90e08fb-a9fb-4906-af8b-65903329ae6a",
+      "DisplayName": "UrlShortener.Data",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c174e7b0-f7ae-4919-833a-c60a7c581c64": {
+      "ProjectGuid": "c174e7b0-f7ae-4919-833a-c60a7c581c64",
+      "DisplayName": "UrlShortener.WebApplication",
+      "ColorIndex": 3
+    },
+    "01d424a4-fe77-4bca-822c-df2bae997e6a": {
+      "ProjectGuid": "01d424a4-fe77-4bca-822c-df2bae997e6a",
+      "DisplayName": "UrlShortener.Domain.Tests",
+      "ColorIndex": 4
+    },
+    "97778b0c-f59b-4721-9907-75f122f8bd93": {
+      "ProjectGuid": "97778b0c-f59b-4721-9907-75f122f8bd93",
+      "DisplayName": "UrlShortenerAPI.Tests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
